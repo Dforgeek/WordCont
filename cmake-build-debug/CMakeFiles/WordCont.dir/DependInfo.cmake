@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/ITMO_Education/Programming/WordCont/main.c" "D:/ITMO_Education/Programming/WordCont/cmake-build-debug/CMakeFiles/WordCont.dir/main.c.obj"
+  "C:/Users/1812s/CLionProjects/WordCont/main.c" "C:/Users/1812s/CLionProjects/WordCont/cmake-build-debug/CMakeFiles/WordCont.dir/main.c.obj"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

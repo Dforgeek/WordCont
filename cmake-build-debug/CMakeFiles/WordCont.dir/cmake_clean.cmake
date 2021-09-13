@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/WordCont.dir/main.c.obj"
   "WordCont.exe"
   "WordCont.exe.manifest"
+  "WordCont.lib"
   "WordCont.pdb"
-  "libWordCont.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

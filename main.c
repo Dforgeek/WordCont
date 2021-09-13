@@ -6,7 +6,7 @@ int main(int argc, char **argv) {
         // Если количество аргументов меньше трёх требуемых, то выводим подсказку по формату ввода
         printf("Please follow this format of command: \'WordCont.exe [OPTION] filename\'");
     } else {
-        int charr, prev_char = 0;
+        int charr, prev_char = -1;
         FILE *fin;
         fin = fopen(argv[2], "r");
         // Описывается команда счётчика строк
@@ -19,7 +19,7 @@ int main(int argc, char **argv) {
                 prev_char = charr;
             }
             // Проверяем, оканчивается ли текст переводом строки. Если нет, то прибавляем к счётчик оследнюю строку
-            if (prev_char != '\n' && prev_char != 0) {
+            if (prev_char != '\n' && prev_char != -1) {
                 line_cnt++;
             }
             printf("%ld lines in this file\n", line_cnt);
@@ -33,7 +33,7 @@ int main(int argc, char **argv) {
                 }
                 prev_char = charr;
             }
-            if (prev_char != ' ' && prev_char != '\n' && prev_char != 0) {
+            if (prev_char != ' ' && prev_char != '\n' && prev_char != -1) {
                 word_cnt++;
             }
             printf("%ld words in this file\n", word_cnt);
@@ -45,7 +45,7 @@ int main(int argc, char **argv) {
                 symbol_cnt++;
                 prev_char = charr;
             }
-            if (prev_char != 0) {
+            if (prev_char != -1) {
                 symbol_cnt++;
             }
             printf("%ld bytes is a size of this file \n", symbol_cnt);

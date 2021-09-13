@@ -1,10 +1,10 @@
-C:\Users\Dforgeek\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5080.54\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\ITMO_Education\Programming\WordCont
--- The C compiler identification is GNU 10.3.0
+C:\Users\1812s\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5080.54\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" C:\Users\1812s\CLionProjects\WordCont
+-- The C compiler identification is MSVC 19.29.30133.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/msys64/mingw64/bin/gcc.exe - skipped
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/ITMO_Education/Programming/WordCont/cmake-build-debug
+-- Build files have been written to: C:/Users/1812s/CLionProjects/WordCont/cmake-build-debug
